@@ -1,0 +1,341 @@
+CRITICAL - 2020-05-24 00:00:43 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:01:26 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:04:52 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:13:34 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:15:29 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:17:04 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:20:48 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:21:15 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:21:47 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:24:16 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:27:10 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:27:34 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:27:52 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:32:31 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:36:46 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:39:43 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:55:51 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:56:32 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 00:57:19 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 01:01:32 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 01:02:08 --> Call to a member function post() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:08:17 --> Use of undefined constant item - assumed 'item' (this will throw an Error in a future version of PHP)
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 09:09:05 --> Use of undefined constant item - assumed 'item' (this will throw an Error in a future version of PHP)
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 09:10:43 --> Call to a member function save() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:12:32 --> Call to a member function save() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:17:51 --> Call to a member function save() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:18:17 --> Call to a member function save() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:18:41 --> Call to a member function save() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:26:49 --> Creating default object from empty value
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 09:27:49 --> Class 'App\Controllers\stdClass' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 09:36:52 --> Class 'App\Controllers\Response' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 10:04:24 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 10:06:33 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 10:11:41 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 10:32:44 --> Class 'App\Models\QuestionItemModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 10:33:21 --> Class 'App\Models\QuestionItemModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 12:27:23 --> Invalid file: {0}
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(12): view()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 12:27:50 --> Invalid file: {0}
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(12): view()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-24 13:27:30 --> Creating default object from empty value
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 13:28:54 --> Class 'App\Controllers\Object' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 13:32:49 --> Object of class App\Classes\ArrayQuestion could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 13:34:06 --> Object of class App\Classes\ArrayQuestion could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 13:34:23 --> array_push() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(25): array_push()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->QuestionarioSocio()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-24 14:33:00 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 14:35:11 --> Object of class App\Entities\MainQuestions could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->loadPergunta()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 14:35:22 --> Object of class App\Entities\MainQuestions could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->loadPergunta()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 17:52:49 --> Class 'App\Entiteis\QuestionHistory' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 17:57:25 --> Class 'App\Entiteis\QuestionHistory' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 17:57:59 --> Class 'App\Entiteis\QuestionHistory' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 18:02:14 --> Object of class App\Entities\QuestionHistory could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-24 18:12:55 --> Call to undefined method App\Models\QuestionHistoryModel::last_query
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(60): CodeIgniter\Model->__call()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 18:13:54 --> Call to undefined method App\Models\QuestionHistoryModel::last_query
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(60): CodeIgniter\Model->__call()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 18:15:25 --> Call to undefined method App\Models\QuestionHistoryModel::last_query
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(61): CodeIgniter\Model->__call()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-24 18:16:02 --> Call to undefined method App\Models\QuestionHistoryModel::last_query
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Questionario.php(61): CodeIgniter\Model->__call()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionarioSocio()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

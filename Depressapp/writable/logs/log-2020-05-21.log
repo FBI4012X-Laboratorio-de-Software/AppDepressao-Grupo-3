@@ -1,0 +1,30 @@
+CRITICAL - 2020-05-21 18:25:36 --> Call to a member function add_js() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(257): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(7): view()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 18:26:02 --> Call to a member function add_js() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(257): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(7): view()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 18:27:40 --> Call to a member function add_js() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(257): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(7): view()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,86 @@
+CRITICAL - 2020-05-22 19:37:22 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:38:37 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:38:49 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:39:10 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:39:40 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:39:41 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:45:48 --> Call to a member function query() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:51:56 --> Call to undefined function App\Controllers\getRow()
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:52:16 --> Call to undefined function App\Controllers\getRow()
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 19:52:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 20:00:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 20:02:56 --> Object of class stdClass could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 20:02:57 --> Object of class stdClass could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-22 20:14:11 --> Class '1' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Database/BaseResult.php(142): CodeIgniter\Database\BaseResult->getCustomResultObject()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(16): CodeIgniter\Database\BaseResult->getResult()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,236 @@
+CRITICAL - 2020-05-23 07:47:49 --> Class '1' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Database/BaseResult.php(142): CodeIgniter\Database\BaseResult->getCustomResultObject()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(16): CodeIgniter\Database\BaseResult->getResult()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-23 09:37:46 --> Class 'App\Controllers\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:22:43 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:23:06 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:23:45 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:23:52 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:24:27 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:25:29 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:25:44 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:35:58 --> Class 'App\Models\MainQuestionModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 12:36:17 --> Class 'App\Entities\MainQuestion' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 13:44:57 --> Object of class App\Entities\MainQuestions could not be converted to string
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 13:54:31 --> Call to a member function find() on null
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 14:08:42 --> There is no data to {0}.
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(831): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(32): CodeIgniter\Model->save()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 14:08:54 --> There is no data to {0}.
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(831): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(32): CodeIgniter\Model->save()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 14:10:13 --> There is no data to {0}.
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(831): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(32): CodeIgniter\Model->save()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 14:11:33 --> There is no data to {0}.
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(831): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(36): CodeIgniter\Model->save()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 14:11:50 --> There is no data to {0}.
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(831): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Home.php(35): CodeIgniter\Model->save()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Home->index()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 15:23:37 --> Class 'App\Controllers\Controller' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/Autoloader/Autoloader.php(365): require_once()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(865): class_exists()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-23 19:07:43 --> Class 'App\Controllers\MainQuestionsModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 19:09:10 --> Class 'App\Controllers\MainQuestionsModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 19:09:34 --> Class 'App\Controllers\MainQuestionsModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 19:55:26 --> Class 'App\Controllers\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 19:58:34 --> Class 'App\Controllers\MainQuestionsModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 19:59:45 --> Class 'App\Controllers\MainQuestionsModel' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-23 21:17:28 --> Invalid file: {0}
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(525): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Views/Perguntas/index.php(12): CodeIgniter\View\View->include()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include('/home/gabriel/D...')
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(11): view()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-23 21:17:45 --> Invalid file: {0}
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(525): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Views/Perguntas/index.php(12): CodeIgniter\View\View->include()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include('/home/gabriel/D...')
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(11): view()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->index()
+#7 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-23 21:34:26 --> Argument 2 passed to view() must be of the type array, null given, called in /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php on line 19
+#0 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(19): view()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->novaPerguntaModal()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-23 21:57:49 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(19): view()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->novaPerguntaModal()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 21:58:03 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(19): view()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->novaPerguntaModal()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 21:58:25 --> Class 'App\Models\QuestionType' not found
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/View/View.php(246): include()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/app/Controllers/Perguntas.php(19): view()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->novaPerguntaModal()
+#4 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-23 23:59:35 --> Too few arguments to function App\Controllers\Perguntas::Create(), 0 passed in /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Create()
+#1 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /home/gabriel/Documentos/Projetos/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gabriel/Documentos/Projetos/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
