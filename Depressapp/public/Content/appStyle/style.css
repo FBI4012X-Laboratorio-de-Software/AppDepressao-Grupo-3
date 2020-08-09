@@ -5,32 +5,47 @@
  */
 
  body {
-    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+    font-family: 'Roboto', sans-serif;
     padding-top: 54px;
     color: #868e96;
   }
-  
+
   @media (min-width: 992px) {
     body {
       padding-top: 0;
-      padding-left: 17rem;
+      padding-left: 15rem;
     }
   }
-  
 
-  #sideNav .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
+  .body-content{
+    padding-left: 2.5rem;
+    padding-top: 1.7rem;
   }
-  
+  #sideNav .navbar-nav .nav-item .nav-link {
+    /* font-weight: 800; */
+    letter-spacing: 0.05rem;
+    /* text-transform: uppercase; */
+  }
+  .h5-home{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .col.btn-control{
+    text-align: right;
+  }
+  .img-login{
+    width: 100px;
+  }
   #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e;
   }
   .img-logo-lg{
     background: #fff;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 8px;
+    border-radius: 9px;
+    width: 100px;
   }
 
   .img-logo-sm{
@@ -39,20 +54,20 @@
     border-radius: 15px;
     height: 65px;
   }
-  
+
   @media (min-width: 992px) {
-   
+
     #sideNav {
       position: fixed;
       display: flex;
       flex-direction: column;
-      width: 17rem;
+      width: 15rem;
       height: 100vh;
     }
     #sideNav .navbar-brand {
       display: flex;
-      padding: 0.9rem;
-      margin-top: 10px;
+      padding-top: 0px !important;
+      margin-right: 5.5rem;
     }
     #sideNav .navbar-brand .img-profile {
       max-width: 10rem;
@@ -69,19 +84,37 @@
     #sideNav .navbar-collapse .navbar-nav {
       flex-direction: column;
       width: 100%;
+      padding-top: 1.2rem;
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item {
       display: block;
+      margin-top: .6rem;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item:hover {
+      background-color: #fff;
+      border-radius: 5px;
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
       display: block;
+      color: #fff;
+      font-size: .95rem;
     }
-
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link svg {
+      margin-right: .5rem;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+      color: #2e6df9;
+    }
+    .navbar-light .navbar-nav .nav-link svg{
+      font-size: 1.4rem;
+      margin-left: .3rem;
+    }
     .navbar-nav{
-        padding-left: 10px;
+        /* padding-left: 10px; */
+        padding-left: 0px;
     }
   }
-  
+
 
   @media (min-width: 768px) {
     section.resume-section {
@@ -91,31 +124,32 @@
       min-width: 18rem;
     }
   }
-  
+
   @media (min-width: 992px) {
     section.resume-section {
       padding-top: 3rem !important;
       padding-bottom: 3rem !important;
     }
   }
-  
+
   .bg-primary {
     background-color: #2e6df9 !important
   }
-  
+
   .text-primary {
     color: #2e6df9 !important
   }
 
   .navbar-light{
       background: #e6e6e6;
+      padding: .8rem 1rem !important;
   }
 
   .img-perfil-sm{
     background: #fff;
     border-radius: 100%;
-    height: 85px;
-    width: 85px;
+    height: 35px;
+    width: 35px;
     border: 1px solid #a9a5a5;
   }
 
@@ -123,16 +157,20 @@
     margin: 10px;
     padding: 30px;
     cursor: pointer;
+    border-radius: 6px;
   }
 
   .app svg{
-    font-size: 60px;
+    font-size: 38px;
   }
 
   .app label{
-    font-size: 16px;
+    font-size: 20px;
     padding: 7px;
     cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 0rem !important;
+    font-weight: 600;
   }
 
   .app-icon-red{
@@ -140,11 +178,34 @@
     color: #ffff;
   }
 
+  .app-icon-green{
+    background: #3eb713;
+    color: #ffff;
+  }
+
+  .app-icon-orange {
+    background: #d9851a;
+    color: #ffff;
+  }
+
   .app-icon-purple{
     background: #6b71bf;
     color: #ffff;
   }
-
+  .row.admin-dashboard{
+    padding-top: 2rem;
+  }
+  .row.table-users{
+    margin-top: 1rem;
+  }
+  #nav-btn{
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .titulo-pergunta-quest{
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+  }
 
   #title-bar{
     padding: 13px;
@@ -156,25 +217,52 @@
   }
 
   #toggle-psd{
-    padding: 20px;
-    background: #f5e672;
-    border: 2px solid #f7e55f;
+    padding: 11px;
+    background: #ae2ddd;
+    border: 2px solid #891eb0;
     margin-top: 10px;
     cursor: pointer;
   }
+  #toggle-psd span{
+    color: #fff;
+  }
 
   #toggle-aa{
-    padding: 20px;
-    background: #74d0ff;
-    border: 2px solid #40bfff;
+    padding: 11px;
+    background: #0c34aa;
+    border: 2px solid #0a2e99;
     margin-top: 10px;
     color: #ffff;
     cursor: pointer;
   }
 
-  input[type=radio]{
-    transform:scale(1.5);
+  #toggle-ca{
+    padding: 11px;
+    background: #10f140;
+    border: 2px solid #227109;
+    margin-top: 10px;
+    color: #ffff;
+    cursor: pointer;
   }
+  #toggle-ca span{
+    color: #fff;
+  }
+
+  .lista-perguntas{
+    padding-top: 1rem;
+  }
+  .table-users thead tr th:last-child,
+  .table-perguntas thead tr th:last-child{
+    text-align: right;
+    padding-right: 1rem;
+  }
+  .table-perguntas tbody tr td:last-child button:first-child{
+    margin-left: .8rem;
+  }
+
+  /* input[type=radio]{
+    transform:scale(1.5);
+  } */
 
   #main-pergunta{
     padding: 20px;
@@ -184,6 +272,36 @@
     padding-left: 20px;
 }
   .app_check{
-    padding: 15px !important;
+    padding: 7px 15px !important;
   }
 
+  .input-opcao-add{
+    margin-left: 10px;
+  }
+
+  #start-novo-questionario{
+    cursor: pointer;
+  }
+
+  #analise-btn{
+    height: 55px;
+  }
+
+  .option-table{
+    background: #b0b4b7;
+
+}
+.option-list{
+    padding-left: 26px !important;
+}
+
+.plus{
+    padding-left: 45px !important;
+    background: #fff;
+}
+
+.plus-title{
+    background: white;
+    border: 2px solid #4c4c4c !important;
+    color: #4c4c4c;
+}

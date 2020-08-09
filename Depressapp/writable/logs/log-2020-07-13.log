@@ -1,0 +1,30 @@
+CRITICAL - 2020-07-13 16:53:22 --> Undefined index: COD_USER
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Models/UserModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Users.php(35): App\Models\UserModel->Salvar()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Users->add_user()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 16:53:48 --> Too few arguments to function App\Controllers\Users::edit_user(), 0 passed in /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php on line 914 and exactly 1 expected
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Users->edit_user()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-07-13 17:26:14 --> Undefined index: COD_USER
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Models/UserModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Users.php(35): App\Models\UserModel->Salvar()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Users->add_user()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 17:30:59 --> Undefined index: COD_USER
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Models/UserModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Users.php(35): App\Models\UserModel->Salvar()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Users->add_user()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

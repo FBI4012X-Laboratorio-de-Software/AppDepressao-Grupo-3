@@ -1,0 +1,364 @@
+CRITICAL - 2020-06-21 17:01:09 --> Call to a member function join() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:04:04 --> syntax error, unexpected '/'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:04:17 --> A non-numeric value encountered
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:06:31 --> Table 'u401195340_appdepressao.Mainquestions' doesn't exist
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(21): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:07:27 --> Call to a member function join() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:07:59 --> Table 'u401195340_appdepressao.Mainquestions' doesn't exist
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(22): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:09:16 --> Table 'u401195340_appdepressao.mainQuestion' doesn't exist
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(23): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:09:38 --> Unknown column 'questionHistoryModel.cod_question' in 'on clause'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(23): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:10:23 --> Unknown column 'questionHistoryModel.cod_question' in 'on clause'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(23): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:12:34 --> Unknown column 'questionHistoryModel.cod_question' in 'on clause'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(22): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-21 17:16:22 --> Class 'App\Models\QuestionType' not found
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:17:41 --> Class 'App\Models\QuestionType' not found
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:20:39 --> Cannot use object of type App\Entities\QuestionHistory as array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:22:19 --> Call to a member function findColumn() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:23:18 --> Call to a member function findColumn() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 17:44:22 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:44:29 --> Invalid argument supplied for foreach()
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:46:15 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:46:16 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:48:51 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:50:13 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:52:07 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:56:27 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(162): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:57:16 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(156): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 17:57:42 --> Undefined index: question_item_desc
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(156): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:01:09 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(164): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:01:34 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(164): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:02:34 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:03:38 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(157): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:06:11 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:06:44 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:09:20 --> Undefined index: cod_question
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:09:40 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:09:57 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:10:25 --> Undefined index: cod_question_item
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:10:51 --> Undefined index: cod_question_item
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:11:43 --> Undefined index: cod_question_item
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:12:23 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:12:43 --> Trying to get property 'cod_question' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(157): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:14:39 --> Trying to get property 'question_item_desc' of non-object
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(158): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->SubmitQuestionario()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:16:10 --> Call to a member function where() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 18:18:11 --> Call to a member function where() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 18:53:05 --> Undefined variable: sum
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 18:53:57 --> Object of class App\Entities\QuestionHistory could not be converted to string
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 18:59:07 --> Call to a member function where() on array
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 19:15:26 --> Undefined variable: lista_depressao
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 19:23:56 --> Unsupported operand types
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-21 19:25:33 --> Undefined variable: lista_stress
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-21 19:26:52 --> Undefined variable: total_depressao
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Questionario/Resultados.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Questionario.php(83): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Questionario->Resultados()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

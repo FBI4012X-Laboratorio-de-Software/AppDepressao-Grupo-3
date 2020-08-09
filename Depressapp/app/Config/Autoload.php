@@ -55,6 +55,8 @@ class Autoload extends \CodeIgniter\Config\AutoloadConfig
 			'Config'      => APPPATH . 'Config',
 		];
 
+		$autoload['libraries'] = array('database', 'session');
+
 		/**
 		 * -------------------------------------------------------------------
 		 * Class Map

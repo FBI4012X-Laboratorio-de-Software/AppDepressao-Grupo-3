@@ -1,0 +1,13 @@
+CRITICAL - 2020-06-15 17:27:26 --> Unknown column 'DES_EMAIL' in 'where clause'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Models/UserModel.php(19): CodeIgniter\Model->first()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Account.php(25): App\Models\UserModel->RetornarUsuarioEmailSenha()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Account->login()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

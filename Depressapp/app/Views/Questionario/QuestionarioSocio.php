@@ -36,8 +36,25 @@
             _currentPergunta = index;
 
             if( _ArrayPerguntas[_currentPergunta].answer != null){
-                let option = '#opcao_'+_ArrayPerguntas[_currentPergunta].answer;
-                $(option).click(); 
+
+                let answer = _ArrayPerguntas[_currentPergunta].answer;
+
+                if(typeof(answer) == "string"){
+                    let option = '#opcao_'+_ArrayPerguntas[_currentPergunta].answer;
+                    $(option).val(_ArrayPerguntas[_currentPergunta].reply_text);
+                    $(option).click();
+                }
+                else{
+                    for(var i = 0; i< answer.length; i++){
+                        let option = '#opcao_'+answer[i];
+                        $(option).click();
+                    }
+                }
+                $('#justi_reply').val(_ArrayPerguntas[_currentPergunta].justification)
+
+
+
+
             }
 
 
@@ -63,9 +80,11 @@
 
         var ListaRespostas = _ArrayPerguntas.map(
             function(item){
-                return { 
-                    cod_question: item.key, 
-                    cod_question_item: item.answer 
+                return {
+                    cod_question: item.key,
+                    cod_question_item: item.answer,
+                    reply_text: item.reply_text,
+                    justification: item.justification
                 }
             });
         var baseurl = '<?=base_url()?>';
@@ -86,7 +105,7 @@
         </div>
 
     </div>
-   
+
     <div class="row">
         <div class="col-12" id="main-pergunta">
         </div>
@@ -94,9 +113,9 @@
 
     <div class="row">
         <div class="col-12" id="nav-btn">
-            <button class="btn btn-outline-dark" id="p-a" onclick="CarregarPergunta(0)"><i class="fa fa-angle-left"></i> Anterior</button>
-            <button class="btn btn-outline-dark" id="p-p" onclick="CarregarPergunta(1)">Próximo <i class="fa fa-angle-right"></i></button>
-            
+            <button class="btn btn-outline-dark btn-sm" id="p-a" onclick="CarregarPergunta(0)"><i class="fa fa-angle-left"></i> Anterior</button>
+            <button class="btn btn-dark btn-sm" id="p-p" onclick="CarregarPergunta(1)">Próximo <i class="fa fa-angle-right"></i></button>
+
         </div>
     </div>
 </div>

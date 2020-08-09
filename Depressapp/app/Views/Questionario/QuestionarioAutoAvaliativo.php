@@ -36,8 +36,22 @@
             _currentPergunta = index;
 
             if( _ArrayPerguntas[_currentPergunta].answer != null){
-                let option = '#opcao_'+_ArrayPerguntas[_currentPergunta].answer;
-                $(option).click(); 
+
+                let answer = _ArrayPerguntas[_currentPergunta].answer;
+
+                if(typeof(answer) == "string"){
+                    let option = '#opcao_'+_ArrayPerguntas[_currentPergunta].answer;
+                    $(option).val(_ArrayPerguntas[_currentPergunta].reply_text);
+                    $(option).click();
+                }
+                else{
+                    for(var i = 0; i< answer.length; i++){
+                        let option = '#opcao_'+answer[i];
+                        $(option).click();
+                    }
+                }
+                $('#justi_reply').val(_ArrayPerguntas[_currentPergunta].justification)
+
             }
 
 
@@ -63,9 +77,11 @@
 
         var ListaRespostas = _ArrayPerguntas.map(
             function(item){
-                return { 
-                    cod_question: item.key, 
-                    cod_question_item: item.answer 
+                return {
+                    cod_question: item.key,
+                    cod_question_item: item.answer,
+                    reply_text: item.reply_text,
+                    justification: item.justification
                 }
             });
         var baseurl = '<?=base_url()?>';
@@ -86,17 +102,24 @@
         </div>
 
     </div>
-   
+
     <div class="row">
+        <div class="col-12">
+          <p><strong>Instruções:</strong></p>
+          <p>Por favor, leia cuidadosamente cada uma das afirmações abaixo e marque a opção apropriada (0, 1, 2 ou 3) que indique o quanto ela se aplicou à você durante a última semana, conforme a indicação à seguir:</p>
+          <p>0 - Não se aplicou de maneira alguma</p>
+          <p>1 - Aplicou-se em algum grau, ou por pouco tempo</p>
+          <p>2 - Aplicou-se em algum grau considerável, ou por uma boa parte do tempo</p>
+          <p>3 - Aplicou-se muito, ou na maioria do tempo</p>
+        </div>
         <div class="col-12" id="main-pergunta">
         </div>
     </div>
 
     <div class="row">
         <div class="col-12" id="nav-btn">
-            <button class="btn btn-outline-dark" id="p-a" onclick="CarregarPergunta(0)"><i class="fa fa-angle-left"></i> Anterior</button>
-            <button class="btn btn-outline-dark" id="p-p" onclick="CarregarPergunta(1)">Próximo <i class="fa fa-angle-right"></i></button>
-            
+            <button class="btn btn-outline-dark btn-sm" id="p-a" onclick="CarregarPergunta(0)"><i class="fa fa-angle-left"></i> Anterior</button>
+            <button class="btn btn-dark btn-sm" id="p-p" onclick="CarregarPergunta(1)">Próximo <i class="fa fa-angle-right"></i></button>
         </div>
     </div>
 </div>

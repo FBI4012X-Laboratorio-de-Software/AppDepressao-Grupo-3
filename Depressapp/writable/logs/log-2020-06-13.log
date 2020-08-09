@@ -1,0 +1,27 @@
+CRITICAL - 2020-06-13 12:19:12 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\AppDepressao\Depressapp\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\AppDepressao\Depressapp\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AppDepressao\Depressapp\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\AppDepressao\Depressapp\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\AppDepressao\Depressapp\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\AppDepressao\Depressapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-13 12:33:28 --> Undefined variable: request
+#0 C:\xampp\htdocs\AppDepressao\Depressapp\app\Controllers\Account.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(914): App\Controllers\Account->login()
+#2 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AppDepressao\Depressapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-13 19:35:31 --> View themes, no current section.
+#0 C:\xampp\htdocs\AppDepressao\Depressapp\app\Views\Home\index.php(12): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\AppDepressao\Depressapp\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AppDepressao\Depressapp\system\Common.php(1087): CodeIgniter\View\View->render('Home/index', Array, true)
+#3 C:\xampp\htdocs\AppDepressao\Depressapp\app\Controllers\Home.php(9): view('Home/index')
+#4 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\AppDepressao\Depressapp\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AppDepressao\Depressapp\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

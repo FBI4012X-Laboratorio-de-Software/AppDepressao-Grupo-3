@@ -1,0 +1,72 @@
+CRITICAL - 2020-07-11 17:57:52 --> Undefined variable: item
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-11 18:32:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `QuestionItens` ON `QuestionHistory`.`cod_question_item` = `QuestionI' at line 3
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(95): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-11 18:59:31 --> mb_convert_encoding(): Illegal character encoding specified
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(41): mb_convert_encoding()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(15): App\Classes\ExportExcel->_xlsWriteCell()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(123): App\Classes\ExportExcel->to_xls()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-11 19:03:13 --> utf8_encode() expects exactly 1 parameter, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(41): utf8_encode()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(15): App\Classes\ExportExcel->_xlsWriteCell()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(123): App\Classes\ExportExcel->to_xls()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-11 19:24:44 --> Undefined variable: fp
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(115): App\Classes\ExportExcel->to_xls()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-11 19:25:10 --> Undefined variable: fp
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(115): App\Classes\ExportExcel->to_xls()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-11 19:25:29 --> Undefined variable: fp
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(115): App\Classes\ExportExcel->to_xls()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-11 19:26:16 --> Undefined variable: BUILDER
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Classes/ExportExcel.php(17): App\Classes\ExportExcel->_xlsWriteCell()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(115): App\Classes\ExportExcel->to_xls()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->ExportExcel()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

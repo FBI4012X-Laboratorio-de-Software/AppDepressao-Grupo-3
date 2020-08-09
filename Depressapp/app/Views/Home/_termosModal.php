@@ -12,11 +12,11 @@
         </button>
       </div>
       <div class="modal-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum a sapien eu finibus. Etiam quis dictum magna. Duis porttitor lorem ac interdum molestie. Duis sit amet lacus ac enim suscipit pulvinar. Phasellus non consectetur velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a eros est. Nunc pretium, dui eget rhoncus dignissim, purus leo convallis nisi, id viverra felis lacus non sapien. Nullam eget dolor ligula. Nam est libero, suscipit non molestie mattis, venenatis et est.</p>
+        <?php if(isset($this->data['consent_text'])){ echo $this->data['consent_text']->text; }?>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Recusar</button>
-        <a type="button" class="btn btn-success" href="/Questionario/QuestionarioSocio"> Aceitar</a>
+        <a type="button" class="btn btn-success" href="/Questionario/QuestionarioContextoAcademico"> Aceitar</a>
       </div>
     </div>
   </div>

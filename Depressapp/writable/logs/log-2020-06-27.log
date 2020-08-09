@@ -1,0 +1,249 @@
+CRITICAL - 2020-06-27 19:44:57 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Perguntas.php(135): CodeIgniter\Model->save()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Update()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-27 20:04:24 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(2441): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(549): CodeIgniter\Model->update()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Perguntas.php(135): CodeIgniter\Model->save()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Perguntas->Update()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-27 21:09:06 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-27 21:38:44 --> Call to undefined method App\Models\QuestionHistoryModel::num_rows
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(33): CodeIgniter\Model->__call()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-27 21:39:54 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1937): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(1596): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(33): CodeIgniter\Model->countAllResults()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-27 21:40:36 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1937): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(1596): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(33): CodeIgniter\Model->countAllResults()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-27 21:43:32 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(33): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-27 21:44:49 --> array_count_values(): Can only count STRING and INTEGER values!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(34): array_count_values()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-27 21:46:14 --> Uncaught mysqli_sql_exception: MySQL server has gone away in /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(34): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/sys
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-27 22:01:00 --> Uncaught mysqli_sql_exception: MySQL server has gone away in /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(34): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/sys
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-27 22:03:47 --> MySQL server has gone away
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(40): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#8 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-27 22:09:39 --> Uncaught mysqli_sql_exception: MySQL server has gone away in /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(34): CodeIgniter\Model->findAll()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/sys
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-27 22:16:42 --> Undefined variable: data
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:17:01 --> Undefined variable: data
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:17:16 --> Undefined variable: data
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:17:46 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:18:03 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:18:16 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:18:28 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:18:56 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:19:09 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:19:22 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:19:34 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-27 22:19:48 --> Undefined variable: lista
+#0 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Views/Analise/View.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/View/View.php(246): include('/media/gabriel/...')
+#2 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/Common.php(1087): CodeIgniter\View\View->render()
+#3 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/app/Controllers/Analise.php(49): view()
+#4 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(914): App\Controllers\Analise->View()
+#5 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/gabriel/Dados/Projetos/AppDepressao/Depressapp/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

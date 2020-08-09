@@ -2,14 +2,26 @@
 
 <?= $this->section('content') ?>
     <div class="col-lg-12 col-md-12 col-sm-6 col-6">
- 
+
     <div class="row" id="title-bar">
-        <div class="col">
             <span class="view-title"> Menu Administrativo</span>
         </div>
-    </div>
     <section id="menu-grid">
-        <div class="row">
+        <div class="row admin-dashboard">
+            <div class="col-lg-3 col-md-3 col-sm-12 app app-icon-green" onclick="CadastrarUsuarios()">
+                <div class="text-center">
+                    <i class="fa fa-user"></i> <br>
+                    <label>Cadastrar Usuários</label>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 app app-icon-orange" onclick="EditarTermo()">
+                <div class="text-center">
+                    <i class="fa fa-file"></i> <br>
+                    <label>Editar Termo Consentimento</label>
+                </div>
+            </div>
+
             <div class="col-lg-3 col-md-3 col-sm-12 app app-icon-red" onclick="EditarPerguntas()">
                 <div class="text-center">
                     <i class="fa fa-edit"></i> <br>
@@ -17,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-12 app app-icon-purple">
+            <div class="col-lg-3 col-md-3 col-sm-12 app app-icon-purple" onclick="Analise()">
                 <div class="text-center">
                     <i class="fa fa-chart-pie"></i> <br>
                     <label>Analisar Dados</label>

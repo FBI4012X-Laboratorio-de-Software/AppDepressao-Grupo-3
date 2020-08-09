@@ -7,7 +7,7 @@ class MainQuestionsModel extends Model
     protected $table = 'MainQuestions';
     protected $primaryKey = 'cod_question';
     protected $returnType = 'App\Entities\MainQuestions';
-    protected $allowedFields = ['question_desc', 'question_type', 'create_date'];
+    protected $allowedFields = ['cod_question','question_desc', 'question_type', 'create_date', 'question_mode', 'question_symp', 'has_justification', 'justification'];
     protected $useTimestamps = false;
     
 
@@ -27,5 +27,22 @@ abstract class QuestionType
 {
     const socio_demografico = 0;
     const auto_avaliacao = 1;
+    const contexto_academico = 2;
+
+}
+
+abstract class QuestionMode
+{
+    const unica_escolha = 0;
+    const multipla_escolha = 1;
+    const descritiva = 2;
+
+}
+
+abstract class QuestionSymp
+{
+    const depressao = 0;
+    const ansiedade = 1;
+    const stress = 2;
 
 }
